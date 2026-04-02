@@ -1,0 +1,86 @@
+[
+  {
+    "file": "contract_master_services.pdf",
+    "doc_type": "contract",
+    "extracted_fields": {
+      "agreement_name": "Master Services Agreement",
+      "effective_date": "2026-01-01",
+      "termination_date": "2026-12-31",
+      "party_one": "OrbitX Labs",
+      "party_two": "Nova Systems",
+      "governing_law": "California",
+      "payment_terms": "Net 30",
+      "renewal_terms": "Automatic annual renewal unless terminated with 30 days notice"
+    },
+    "summary": "Contract defining the agreement scope, parties, dates, and renewal structure.",
+    "confidence": "medium",
+    "errors": [],
+    "skipped": false,
+    "skip_reason": null,
+    "validation_errors": []
+  },
+  {
+    "file": "empty.txt",
+    "doc_type": null,
+    "extracted_fields": null,
+    "summary": null,
+    "confidence": null,
+    "errors": [],
+    "skipped": true,
+    "skip_reason": "empty_document",
+    "validation_errors": []
+  },
+  {
+    "file": "invoice_april.pdf",
+    "doc_type": "invoice",
+    "extracted_fields": {
+      "vendor_name": "Aster Labs",
+      "invoice_number": "INV-2048",
+      "invoice_date": "2026-04-01",
+      "due_date": "2026-04-15",
+      "total_amount": 4200.0,
+      "currency": "USD",
+      "customer_name": "OrbitX Labs",
+      "line_items": []
+    },
+    "summary": "Invoice covering billed services, vendor details, and payment deadline.",
+    "confidence": "medium",
+    "errors": [],
+    "skipped": false,
+    "skip_reason": null,
+    "validation_errors": []
+  },
+  {
+    "file": "invoice_feb.txt",
+    "doc_type": "invoice",
+    "extracted_fields": {
+      "vendor_name": "Northstar Analytics",
+      "invoice_number": "INV-1024",
+      "invoice_date": "2026-02-14",
+      "due_date": "2026-03-01",
+      "total_amount": 18500.0,
+      "currency": "USD",
+      "customer_name": "OrbitX Labs",
+      "line_items": []
+    },
+    "summary": "Invoice covering billed services, vendor details, and payment deadline.",
+    "confidence": "medium",
+    "errors": [],
+    "skipped": false,
+    "skip_reason": null,
+    "validation_errors": []
+  },
+  {
+    "file": "notes.md",
+    "doc_type": null,
+    "extracted_fields": null,
+    "summary": null,
+    "confidence": null,
+    "errors": [
+      "Unsupported file type: .md"
+    ],
+    "skipped": true,
+    "skip_reason": "unsupported_file_type",
+    "validation_errors": []
+  }
+]

@@ -1,0 +1,9 @@
+Invoice
+Vendor: Northstar Analytics
+Invoice Number: INV-1024
+Invoice Date: 2026-02-14
+Due Date: 2026-03-01
+Bill To: OrbitX Labs
+Currency: USD
+Line Item: Platform integration sprint
+Total: 18500.00
