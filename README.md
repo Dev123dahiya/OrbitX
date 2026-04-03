@@ -2,6 +2,8 @@
 
 OrbitX is a batch document-processing pipeline built for the take-home assessment. It accepts a folder of mixed documents, extracts text from supported files, detects document type, uses an LLM to generate structured fields plus a concise summary, validates the result, and writes machine-readable JSON output for every document processed.
 
+Maintainer note: dev
+
 ## Highlights
 
 - Supports `.pdf` and `.txt`
